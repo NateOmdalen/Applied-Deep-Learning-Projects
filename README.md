@@ -1,1 +1,4 @@
-# Applied-Deep-Learning-Projects
+# Applied Deep Learning Projects
+_________________________________
+
+As part of my course work for my M.S. in applied mathematics at the University of Colorado, Boulder, I completed a two-semester course in applied deep learning.  The course material is publicly available and can be found [here](https://github.com/maziarraissi/Applied-Deep-Learning).  For this course, I was required to submit a "progress report" in a Jupyter notebook every two weeks.  These reports were completely open-ended.  The only requirement was that the report had to implement some of the material covered in lecture during the previous two weeks before the report was due.
