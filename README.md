@@ -43,4 +43,4 @@ __________________________________________
 
 **Language Modeling**
 
-
+BERT is a very popular langauge model that was introduced in [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805).  In this report, I attempt to train from scratch a small BERT and a large BERT using the 'wikitext' dataset
