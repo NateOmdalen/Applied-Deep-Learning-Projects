@@ -61,7 +61,7 @@ ___________________________________________
 
 **Neural Machine Translation**
 
-
+This report explores seq2seq models introduced in [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215).  Previous efforts in machine translation needed both deep learning and classical machine learning in order to map sequences to sequences.  This paper was one of the first breakthroughs in developing neural networks that perform the entire translation without any aid from classical ML.  In this report, I train a number of seq2seq models using the Multi30k dataset and evaluate them with the BLEU score.  In particular, I investigate the performance of different kinds of architectures, both small and large.  I also investigate the effects of the smoothing method used in the BLEU score on our ability to interpret the test results.
 ___________________________________________
 
 **Object Detection**
