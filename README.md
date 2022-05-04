@@ -43,4 +43,10 @@ __________________________________________
 
 **Language Modeling**
 
-BERT is a very popular langauge model that was introduced in [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805).  In this report, I attempt to train from scratch a small BERT and a large BERT using the 'wikitext' dataset
+BERT is a very popular langauge model that was introduced in [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805).  In this report, I attempt to train from scratch a small BERT model and a large BERT model using the wikitext dataset.  Language models are only as good as the downstream tasks that they support.  Therefore, as a way to compare the models, I use transfer learning to train each model to perform sentiment analysis on the emotions dataset (found [here](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp)).  I use a "fully" pre-trained BERT model as a baseline to compare the performance of the two models I pre-train.
+
+___________________________________________
+
+**Mix-Up**
+
+
