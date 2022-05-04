@@ -47,6 +47,13 @@ BERT is a very popular langauge model that was introduced in [BERT: Pre-training
 
 ___________________________________________
 
-**Mix-Up**
+**Mixup**
+
+This report investigates the claims made in [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412).  Supervised learning can be characterized as the task of minimizing the expected risk of misclassifying an example.  This requires the specification of a loss function and an underlying distribution for the data. Typically, since little is known in advance about the data, one implicitly assumes a Dirac distribution.  The resulting model is called an empirical risk minimization model.  This paper argues that the mixup distribution provides a better model of the data.  This distribution is an example of a "vicinal distribution."  Sampling is achieved by taking convex combinations of images from different domains.  In this report, I investigate whether this distribution is a good model for the geometry of the space of images.  I use the CIFAR-10 dataset.  I also compare this method to another vicinal distribution that assumes the data is Gaussian.
+
+___________________________________________
+
+**Neural Collaborative Filtering**
+
 
 
