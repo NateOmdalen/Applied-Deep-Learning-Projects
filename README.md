@@ -55,5 +55,5 @@ ___________________________________________
 
 **Neural Collaborative Filtering**
 
-
+This report explores the recommender system proposed in [Neural Collaborative Filtering](https://arxiv.org/abs/1708.05031).  Collaborative filtering models a user's preferences via their interactions with the items that may be potentially recommended.  Neural Collaborative Filtering (NCF) models these interactions with a neural network.  The paper demonstrates that traditional filtering methods such as matrix factorization can be generalized to an NCF model.  The paper terms these models generalized marix factorization (GMF) models.  It also proposes a NeuMF model, which combines a GMF model with an MLP model.  The resulting network is unique in that it has both a shallow component and a deep component, which helps the network from overfitting.  In this report, I investigate NCF models using the MovieLens dataset.
 
