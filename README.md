@@ -5,4 +5,10 @@ As part of my course work for my M.S. in applied mathematics at the University o
 
 ____________________________________
 
-*Adversarial Attacks*
+**Adversarial Attacks**
+
+This report is an implementation of the ideas presented in [The Limitations of Deep Learning in Adversarial Settings](https://arxiv.org/abs/1511.07528v1).  Most adversarial attacks in computer vision look to make imperceptible perturbations of an image so that it is incorrectly classified by a neural network.  Few attack algorithms enable the attacker to target a specific class to classify an image.  In this paper, the authors introduce *adversarial saliency maps* as a way to implement such a targeted attack.  The used the LeNet architecture and MNIST dataset.  In this report, I implement the paper's algorithms on the CIFAR-10 dataset using a ResNet architecture.
+
+____________________________________
+
+**Autoencoders**
