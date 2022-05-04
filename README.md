@@ -71,5 +71,5 @@ ____________________________________________
 
 **Sentiment Analysis with CNNs**
 
-
+Prior to the development of large language models, researchers experimented with using convolutional neural networks for text classification.  This report explores one such network introduced in [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882).  Using the IMDb dataset, I train this network to classify movie reviews as either positive or negative.  The weights for the word embedding were pre-trained using word2vec.  I also investigate the effect of the dropout probability on the performance and compare networks that are trained with and without static learning.  In static learning, the word embedding is frozen during training, while in non-static learning, the weights of the word embedding are free to be updated. 
 _____________________________________________
