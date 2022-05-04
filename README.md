@@ -37,4 +37,10 @@ __________________________________________
 
 **Interpretable DL**
 
+This report compares VGG11 and VGG16 via temperature scaling and layer-wise relevance propagation (LRP).  Temperature scaling is a calibration technique introduced in [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599).  Many modern neural networks are poorly calibrated, meaning that the distribution over classes that it learns is highly biased.  Temperature scaling attempts to remedy this problem by dividing the logits by a "temperature" parameter.  LRP is presented in [Layer-Wise Relevance Propagation: An Overview](https://link.springer.com/chapter/10.1007/978-3-030-28954-6_10) and is a method that identifies the most relevant input features for classification by propagating the prediction back into the network according to a certain set of rules.
+
+__________________________________________
+
+**Language Modeling**
+
 
