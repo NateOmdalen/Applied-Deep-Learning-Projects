@@ -31,4 +31,10 @@ _________________________________________
 
 **Few-Shot Learning**
 
-This report implements the ideas proposed in [Prototypical Networks for Few-shot Learning](https://arxiv.org/abs/1703.05175)  Few-shot learning is the task in which a classifier must learn new classes using just a few examples from each new class. The general $n$-shot $k$-way task requires a classifier to classify $n$ query examples for each $k$ unseen classes using a support set of examples from each class.
+This report implements the ideas proposed in [Prototypical Networks for Few-shot Learning](https://arxiv.org/abs/1703.05175)  Few-shot learning is the task in which a classifier must learn new classes using just a few examples from each new class. The general *n*-shot *k*-way task requires a classifier to classify *n* query examples for each *k* unseen classes using a support set of examples from each class.  Prototypical networks introduce a simple inductive bias into previously used few-shot learners in order to boost their performance.  In particular, these networks work from the assumption that examples from a class cluster around a prototypical example.  The prototypical network computes this prototype in order to aid its inference.  This report investigates the performance of prototypical networks using the Omniglot dataset.
+
+__________________________________________
+
+**Interpretable DL**
+
+
