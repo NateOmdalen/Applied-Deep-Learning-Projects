@@ -66,7 +66,7 @@ ___________________________________________
 
 **Object Detection**
 
-
+This report implements the Faster R-CNN object detection model presented in [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497).  The the innovative idea of this paper is the design a fully-convolutional region proposal network that shares parameters with the detection network thereby making the network faster than the Fast R-CNN.  This report implements this model on the LaRA traffic light dataset.  Of particular interest in this report is the tuning of the intersection-over-union threshold.  This is accomplished by looking at the precision-recall curves and choosing the threshold that best balances precision and recall.
 ____________________________________________
 
 **Sentiment Analysis with CNNs**
