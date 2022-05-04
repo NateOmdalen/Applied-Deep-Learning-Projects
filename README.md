@@ -25,3 +25,9 @@ ______________________________________
 
 **CycleGAN**
 
+This report provides an implementation of the network introduced in [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593).  Image-to-image translation is the task of transforming an image from one domain to an image of another.  Typically, generative adversarial networks (GANs) are used to accomplish this task.  However, generic GANs usually require a paired dataset (e.g., an outline of a shoe and the shoe itself) for training.  CycleGAN circumvents this difficulty by modifying the typical GAN loss function.  In particular, it adds a cycle consistency constraint (going from domain A to domain B and back to domain A should produce the original image from domain A) and an identity constraint (the network should learn the identity function when given images from the target domain).  In this report, I investigate CycleGAN using the horse/zebra dataset.
+
+_________________________________________
+
+**Few-Shot Learning**
+
