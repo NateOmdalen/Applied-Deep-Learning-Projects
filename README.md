@@ -7,7 +7,7 @@ ____________________________________
 
 **Adversarial Attacks**
 
-This report is an implementation of the ideas presented in [The Limitations of Deep Learning in Adversarial Settings](https://arxiv.org/abs/1511.07528v1).  Most adversarial attacks in computer vision look to make imperceptible perturbations of an image so that it is incorrectly classified by a neural network.  Few attack algorithms enable the attacker to target a specific class to classify an image.  In this paper, the authors introduce *adversarial saliency maps* as a way to implement such a targeted attack.  The used the LeNet architecture and MNIST dataset.  In this report, I implement the paper's algorithms on the CIFAR-10 dataset using a ResNet architecture.
+This report is an implementation of the ideas presented in [The Limitations of Deep Learning in Adversarial Settings](https://arxiv.org/abs/1511.07528v1).  Most adversarial attacks in computer vision look to make imperceptible perturbations of an image so that it is incorrectly classified by a neural network.  Few attack algorithms enable the attacker to target a specific class to classify an image.  In this paper, the authors introduce *adversarial saliency maps* as a way to implement such a targeted attack.  The paper used the LeNet architecture and MNIST dataset.  In this report, I implement the paper's algorithms on the CIFAR-10 dataset using a ResNet architecture.
 
 ____________________________________
 
@@ -18,3 +18,10 @@ A generic autoencoder consists of three major components:  the encoder, the code
 _____________________________________
 
 **Convolutional Block Attention Modules**
+
+This report provides an implementation of the ideas presented in [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521).  This paper proposes the use of CBAMs as a way to introduce an attention mechanism in convolutional neural networks.  A CBAM contains two components, a spatial and channel component.  The spatial module helps the network focus on the most relevent region of the image, while the channel attention module indentifies the most important features of the image.  In this report, I explore the effect of adding CBAMs into a ResNet-type architecture.  The dataset I use is CIFAR-10.  In addition, I use Grad-CAM to verify whether the CBAMs are in fact aiding the neural network in paying attention to the most relevant aspect of an image.
+
+______________________________________
+
+**CycleGAN**
+
