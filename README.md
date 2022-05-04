@@ -31,3 +31,4 @@ _________________________________________
 
 **Few-Shot Learning**
 
+This report implements the ideas proposed in [Prototypical Networks for Few-shot Learning](https://arxiv.org/abs/1703.05175)  Few-shot learning is the task in which a classifier must learn new classes using just a few examples from each new class. The general $n$-shot $k$-way task requires a classifier to classify $n$ query examples for each $k$ unseen classes using a support set of examples from each class.
